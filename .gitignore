@@ -1,0 +1,47 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# APK and Bundle files
+*.apk
+*.aab
+
+# Log files
+*.log
+build_log.txt
+debug_log.txt
+full_log.txt
+
+# IDE
+/.idea/
+.vscode/
+
+# Signing keystores
+*.jks
+*.keystore
+keystore/
+
+# Android metadata
+.metadata
+
+# Native libraries
+*.so
+
+# Gradle wrapper JAR
+gradle/wrapper/gradle-wrapper.jar
+
+# Binary output
+bin/
+.chronotab/

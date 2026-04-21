@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ocean_blue">
+
+    <!-- Header Content: Typography Only (Professional & Clean) -->
+    <TextView
+        android:id="@+id/tv_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_header_tagline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tagline"
+        android:textSize="14sp"
+        android:textColor="#CCFFFFFF"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_header_title"
+        app:layout_constraintStart_toStartOf="@id/tv_header_title"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Content Sheet -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bg_content_sheet"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/tv_header_tagline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="32dp"
+            android:paddingTop="40dp"
+            android:paddingBottom="32dp">
+
+            <!-- Mission Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_mission_title"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/ocean_blue"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_description"
+                android:textSize="16sp"
+                android:textColor="@color/ocean_blue"
+                android:lineSpacingMultiplier="1.5"
+                android:alpha="0.9"
+                android:layout_marginBottom="32dp"/>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#1A000000"
+                android:layout_marginBottom="32dp"/>
+
+            <!-- Features Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_features_title"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/ocean_blue"
+                android:layout_marginBottom="24dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <!-- Feature 1 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@android:drawable/ic_menu_search"
+                        app:tint="@color/ocean_blue"
+                        android:background="@drawable/circle_white_bg"
+                        android:padding="10dp"
+                        android:contentDescription="@null"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/feat_identify"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/ocean_blue"
+                        android:layout_marginTop="12dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <!-- Feature 2 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@android:drawable/ic_menu_view"
+                        app:tint="@color/ocean_blue"
+                        android:background="@drawable/circle_white_bg"
+                        android:padding="10dp"
+                        android:contentDescription="@null"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/feat_detect"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/ocean_blue"
+                        android:layout_marginTop="12dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <!-- Feature 3 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@android:drawable/ic_menu_compass"
+                        app:tint="@color/ocean_blue"
+                        android:background="@drawable/circle_white_bg"
+                        android:padding="10dp"
+                        android:contentDescription="@null"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/feat_trace"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/ocean_blue"
+                        android:layout_marginTop="12dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:minHeight="40dp"/>
+
+            <!-- Footer -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/about_back_button"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                app:elevation="0dp"
+                android:backgroundTint="@color/ocean_blue"
+                android:textColor="@color/white"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

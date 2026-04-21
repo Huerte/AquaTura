@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">AquaTura</string>
+    <string name="tagline">One Scan. One Sea. One App!</string>
+    <string name="camera_hint">Point at a fish and tap to identify</string>
+    <string name="analyzing">Analyzing… Please hold still</string>
+    <string name="btn_identify_another">Identify another fish</string>
+    <string name="btn_capture_desc">Capture Image</string>
+    <string name="permission_camera_rationale">Camera access is required to identify fish.</string>
+    <string name="error_camera">Camera initialization failed</string>
+    <string name="confidence_format">Confidence: %.1f%%</string>
+    <string name="menu_about">About AquaTura</string>
+    <string name="menu_version">Version v1.0 (Beta)</string>
+    <string name="version_text">v1.0 (Beta)</string>
+    <string name="app_desc_short">Your companion for marine life identification.</string>
+    <string name="about_description">AquaTura PH lets users scan and identify fish species, detect potential diseases, and trace their origin. Each scan contributes to safer seafood, sustainable fisheries, and marine conservation.</string>
+    <string name="about_back_button">Back</string>
+    <string name="about_mission_title">Our Mission</string>
+    <string name="about_features_title">Key Features</string>
+    <string name="feat_identify">Identify</string>
+    <string name="feat_identify_desc">Instantly recognize fish species.</string>
+    <string name="feat_detect">Detect</string>
+    <string name="feat_detect_desc">Spot potential diseases early.</string>
+    <string name="feat_trace">Trace</string>
+    <string name="feat_trace_desc">Know the origin of your catch.</string>
+    <string name="about_copyright">© 2025 AquaTura PH. All rights reserved.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="not_a_fish_title">Not a Fish</string>
+    <string name="not_a_fish_message">We cannot identify this as a fish. Please try taking a picture of a real fish.</string>
+    <string name="unknown_species_title">Could Not Identify</string>
+    <string name="unknown_species_message">We couldn\'t clearly spot a known fish. Try moving closer, adding light, or taking a side-view photo.</string>
+    <string name="crop_confirm">Confirm</string>
+    <string name="crop_cancel">Cancel</string>
+    <string name="gallery_import">Import from Gallery</string>
+    <string name="permission_denied_title">Camera Permission Needed</string>
+    <string name="permission_denied_message">AquaTura needs camera access to identify fish. Please grant camera permission in settings.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="image_quality_poor">Poor Image Quality</string>
+    <string name="image_too_large">Image Too Large</string>
+    <string name="image_too_large_message">The selected image is too large. Please try a smaller image or use the camera.</string>
+    <string name="try_again">Try Again</string>
+    <string name="out_of_memory">Out of Memory</string>
+    <string name="out_of_memory_message">Not enough memory to process this image. Try closing other apps or use a smaller image.</string>
+    <string name="processing_image">Processing image...</string>
+    
+    <string name="multiple_matches_title">We found possible matches</string>
+    <string name="multiple_matches_subtitle">Select the fish that looks most similar to yours:</string>
+    <string name="match_found_title">We found a match!</string>
+    <string name="match_found_subtitle">Here is the most likely fish, along with other possibilities:</string>
+    <string name="multiple_matches_tip">Try taking a clearer photo for better results</string>
+    <string name="retake_photo">Retake Photo</string>
+    <string name="percent_format">%d%%</string>
+    
+    <string name="unknown_fish_title">Fish Not Recognized</string>
+    <string name="unknown_fish_message">We couldn\'t identify this fish with confidence.</string>
+    <string name="unknown_fish_reasons">This might be because:\n• Fish is not in our database\n• Image quality is too low\n• Fish is partially visible</string>
+    <string name="best_guess_label">Our best guess (low confidence):</string>
+    <string name="report_fish">Report Fish</string>
+    
+    <string name="not_fish_detected_title">No Fish Detected</string>
+    <string name="not_fish_detected_message">We couldn\'t find a fish in this image.</string>
+    <string name="not_fish_tips">Please make sure:\n✓ The fish is clearly visible\n✓ Good lighting conditions\n✓ Fish fills most of the frame</string>
+    
+    <string name="loading_analyzing">Analyzing your fish photo...</string>
+    <string name="loading_matching">Looking for matches in our database...</string>
+    
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_model_load">We\'re having trouble starting. Please restart the app.</string>
+    <string name="error_invalid_image">This image format isn\'t supported. Try taking a new photo.</string>
+    <string name="toggle_flash">Toggle flash</string>
+</resources>
