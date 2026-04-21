@@ -188,39 +188,6 @@ AquaTura/
 
 ---
 
-## Roadmap
-
-### v1.0 (Current — Production)
-✅ 31 fish species classification
-✅ Two-stage detection pipeline
-✅ 96.29% overall accuracy
-✅ Camera capture and gallery import
-✅ Detailed fish information display
-
-### v1.1 (Near-term)
-- [ ] Temporal averaging for live camera
-- [ ] Flash toggle functionality
-- [ ] Conservation status display
-- [ ] Report Error backend integration
-- [ ] Improve low-performing species
-
-### v1.2 (Medium-term)
-- [ ] Expand to 50+ species
-- [ ] Multi-language support (Filipino, Spanish)
-- [ ] Offline fish database
-- [ ] History and favorites feature
-- [ ] Social sharing functionality
-
-### v2.0 (Long-term)
-- [ ] Real-time fish detection with bounding boxes
-- [ ] Multiple fish identification in single image
-- [ ] AR overlay with fish information
-- [ ] Community contributions system
-- [ ] Integration with fishing/tourism apps
-- [ ] Fish size estimation from photos
-
----
-
 ## Troubleshooting
 
 | Issue | Cause | Solution |
